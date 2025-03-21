@@ -1,3 +1,4 @@
+sudo firewall-cmd --state
 
 sudo firewall-cmd --list-services
 firewall-cmd --get-active-zones
