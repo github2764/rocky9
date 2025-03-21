@@ -1,0 +1,1 @@
+on rocky linux without enabling 9090 port on firewall-cmd it seems to be open after installing firewalld and enabling it
