@@ -1,3 +1,5 @@
+sudo journalctl -u cockpit.service --no-pager
+
 sudo firewall-cmd --state
 
 sudo firewall-cmd --list-services
