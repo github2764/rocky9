@@ -4,3 +4,5 @@ sudo systemctl enable --now firewalld
 
 sudo systemctl enable --now cockpit.socket
 sudo passwd rocky
+
+#enable selinux if disabled
