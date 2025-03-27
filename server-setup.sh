@@ -3,6 +3,7 @@ sudo dnf install -y firewalld
 sudo systemctl enable --now firewalld
 
 sudo systemctl enable --now cockpit.socket
+#in order to login into cockpit via browser we need login and pass
 sudo passwd rocky
 
 #enable selinux if disabled
