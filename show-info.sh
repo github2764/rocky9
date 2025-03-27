@@ -1,3 +1,5 @@
+echo "sudo journalctl -u cockpit.service --no-pager"
+echo "*********************************************************************"
 sudo journalctl -u cockpit.service --no-pager
 
 sudo firewall-cmd --state
