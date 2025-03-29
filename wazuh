@@ -1,3 +1,4 @@
 need wazuh , auditd, clamav, lynis, filebeat not necessary, security onion overkill, 
 rkhunter not needed wazuh covers that, suricata for network ids,
 fail2ban responds faster than wazuh even though wazuh obviates the need for fail2ban 
+osquery
