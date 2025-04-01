@@ -12,3 +12,5 @@ Install nginx with lets encrypt for domains
 Install wazuh components
 
 Gitea as per https://bryangilbert.com/post/devops/how-to-setup-gitea-ubuntu/#setting-up-a-systemd-service
+
+setup nginx reverse proxy to spring boot node python golang etc
