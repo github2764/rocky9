@@ -1,0 +1,14 @@
+
+Dnf update
+
+Change sshd_config and set up fail2ban
+
+Enable cockpit
+
+Install firewall  and set ports, use a big service file to put all ports 
+
+Install nginx with lets encrypt for domains 
+
+Install wazuh components
+
+Gitea as per https://bryangilbert.com/post/devops/how-to-setup-gitea-ubuntu/#setting-up-a-systemd-service
