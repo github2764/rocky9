@@ -10,6 +10,7 @@ Install firewall  and set ports, use a big service file to put all ports
 Install nginx with lets encrypt for domains 
 
 Install wazuh components
+clamav, lynis, velociraptor
 
 Gitea as per https://bryangilbert.com/post/devops/how-to-setup-gitea-ubuntu/#setting-up-a-systemd-service
 
