@@ -1,8 +1,13 @@
-echo "Explicit ports:"
-sudo firewall-cmd --list-ports
+#!/bin/bash
 
-echo -e "\nPorts from services:"
+echo "===== Explicit Ports (using --add-port) ====="
+sudo firewall-cmd --list-ports
+echo
+
+echo "===== Ports from Services (using --add-service) ====="
 for svc in $(sudo firewall-cmd --list-services); do
-  ports=$(sudo firewall-cmd --info-service=$svc | grep '^  ports:' | cut -d':' -f2)
-  [ -n "$ports" ] && echo "$svc =>$ports"
+  ports=$(sudo firewall-cmd --info-service=$svc | grep '^  ports:' | cut -d':' -f2 | xargs)
+  if [ -n "$ports" ]; then
+    echo "$svc => $ports"
+  fi
 done
