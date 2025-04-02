@@ -1,3 +1,6 @@
+https://packages.wazuh.com/4.11/wazuh-install.sh
+   install script including agent, no need to install agent 
+
 need wazuh , auditd, clamav neccessary but can be slow and is outdated, lynis, filebeat not necessary, security onion overkill, 
 rkhunter not needed wazuh covers that, suricata for network ids,
 fail2ban responds faster than wazuh even though wazuh obviates the need for fail2ban 
