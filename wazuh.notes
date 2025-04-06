@@ -1,5 +1,7 @@
 https://packages.wazuh.com/4.11/wazuh-install.sh
    install script including agent, no need to install agent 
+to install agent on another server use the deploy agent in server thru browser interface , it will generate scripts 
+to be run on agent machine
 
 need wazuh , auditd, clamav neccessary but can be slow and is outdated, lynis, filebeat not necessary, security onion overkill, 
 rkhunter not needed wazuh covers that, suricata for network ids,
