@@ -1,4 +1,4 @@
-https://packages.wazuh.com/4.11/wazuh-install.sh
+curl -LO https://packages.wazuh.com/4.11/wazuh-install.sh
    install script including agent, no need to install agent 
 to install agent on another server use the deploy agent in server thru browser interface once the server is installed , it will generate scripts 
 to be run on agent machine
